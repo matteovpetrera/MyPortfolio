@@ -52,6 +52,30 @@ export default function Footer() {
             <p className="ml-2 h-7">view source</p>
           </a>
         </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="http://www.instagram.com/matteo_petrera"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7"></p>
+            <img src="instagram-white-icon.png" className="w-5 h-5"></img>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/matteovpetrera/"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7"></p>
+            <img src="linkedin-app-white-icon.png" className="w-5 h-5"></img>
+          </a>
+        </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
         © {new Date().getFullYear()} MIT Licensed
